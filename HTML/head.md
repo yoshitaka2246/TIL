@@ -23,3 +23,26 @@ viewportとは、ユーザーが実際に見るブラウザの表示領域のこ
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 ```
+### title
+ブラウザのタブや検索結果に表示されるタイトルです。SEO的にも重要なタグで、「サイト全体の名前＋個々のページの名前」で組み合わせて書くことが多いです。
+```html
+<title>ポートフォリオ｜トップページ</title>
+```
+### description
+ページの概要説明文を検索エンジンやSNSに伝えるための説明文です。description自体は検索結果のランキングに直接には影響しませんが、ユーザーにクリックさせるために重要です。書き方のコツとしては、１２０〜１５０文字程度で、キーワードを自然に入れつつ、人間がわかり易い文章にすることが重要です。
+
+ページごとに内容は変更しましょう。
+```HTML
+<meta name="description" content="説明文">
+```
+
+### link
+linkは外部リソースとこのHTMLを関連付けるために使います。代表的なものはCSSファイル、ブラウザのタブに表示されるアイコンなどがあります。
+```HTML
+//CSSファイルの読み込み
+<link rel="stylesheet" href="{ファイルパス}"
+
+//サイトのアイコン
+<link rel="icon" href="{ファイルパス}" type="image/png"> //typeはMIMEタイプ
+```
+
