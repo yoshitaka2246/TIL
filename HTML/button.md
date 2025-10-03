@@ -5,5 +5,5 @@
 const Button=document.getElementById("exampleButton");
 Button.addEventListener('click',()=>{
 //ここに処理書く
-}
+})
 ```
