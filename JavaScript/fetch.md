@@ -3,10 +3,11 @@ JavascriptによるWebサイト同士の通信の中心技術であるfetchに�
 
 ## 概要と基本構文
 `fetch()`はjavascriptでhttp通信を行うための組み込み関数です。ブラウザからサーバーと通信して、データを**取得**(`GET`)したり、**送信**(`POST`, `PUT`, `DELETE`)したりできます。
-:::note info
-組み込み関数
+
+**組み込み関数**
+
 組み込み関数とは、プログラミング言語の言語仕様に最初から定義され、提供されている関数のことです。開発者が１から定義することなくさまざまな便利機能を使用することができます。代表的なものには、`console.log()`,`map()`などがあります。
-:::
+
 ## 基本構文と返り値
 ```JavaScript
 fetch(url,options)
@@ -16,6 +17,7 @@ fetch(url,options)
   - method (string):使用するHTTPメソッド（例: `PUT`、`POST`, `DELETE`）
   - headers (Headers):HTTPヘッダー（送信データの型などを指定）
   - body (string):リクエストの本文（送信するデータ）。文字列として送る必要がある。
+
 fetch処理はasyncを使った非同期処理で書くことが推奨されます。次のプログラムはGETリクエストの基本構文です。
 methodにはGETの他に次のようなものがあります。
 - **POST**：新規作成（サーバーに追加）
@@ -57,8 +59,8 @@ getData();
 - `json()` (Promise<object>):レスポンスをJSONとしてパース**(API通信で最もよく使う)**
 - `blob()` (Promise<Blob>):バイナリデータとして取得（画像・ファイルなど）
 - `formData()` (Promise<FormData>):フォーム送信データを取得（enctype="multipart/form-data"など）
-:::note info
-パース
+
+**パース**
+
 パースとは、json形式のデータを、プログラムで扱えるような形式にすることを言います。`response.json()`では、json形式の応答をJavaScriptで扱えるオブジェクトに変換して返します。
-:::
 
