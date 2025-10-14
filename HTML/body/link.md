@@ -2,8 +2,8 @@
 HTML5で定義されているタグは100種類以上あり、`<body>`内で使えるタグは約90種類である。この中から実務でよく使うタグを次のように分類し、タグの性質と使い方をまとめていく。今回は、**リンク・ナビゲーション系**のタグをまとめる。
 |分類|主なタグ|用途|
 |-------------|------------------------------|---------------|
-|[**構造・セクション系**](topics/HTML/body/structure.md)|`<header>`,`<main>`,`<footer>`,`section>`,`<article>`,`<aside>`,`<nav>`,`<div>`|ページ構造を作る|
-|[**テキスト系**](topics/HTML/body/text.md)`<h1>`~`<h6>`,`<p>`,`<span>`,`<strong>`,`<em>`,`<br>`,`<hr>`,`<blockquote>`,`<code>`|文章や文字装飾|
+|[**構造・セクション系**](structure.md)|`<header>`,`<main>`,`<footer>`,`section>`,`<article>`,`<aside>`,`<nav>`,`<div>`|ページ構造を作る|
+|[**テキスト系**](text.md)|`<h1>`~`<h6>`,`<p>`,`<span>`,`<strong>`,`<em>`,`<br>`,`<hr>`,`<blockquote>`,`<code>`|文章や文字装飾|
 |**メディア系**|`<img>`,`<picture>`,`<audio>`,`<video>`,`<canvas>`,`<svg>`|画像・動画・音声など|
 |**リンク・ナビゲーション系**|`<a>`,`<button>`,`<ul>`,`<ol>`,`<li>`|リンクやメニュー|
 |**フォーム・入力系**|`<form>`,`<input>`,`<textarea>`,`<select>`,`<option>`,`<label>`|入力フォーム関連|
