@@ -28,4 +28,26 @@ HTML5で定義されているタグは100種類以上あり、`<body>`内で使�
   </nav>
 </header>
 ```
+**関連** : [<ul>](topics/HTML/body/link.md) , [<li>](topics/HTML/body/link.md) , [<a>](topics/HTML/body/link.md)
+
 2. **セクションごとのヘッダー**
+`<article>`や`<section>`のなかでも使用可能で、そのセクションの見出しや説明を含めると、構造をより明確にすることができます。
+```html
+<article>
+  <header>
+    <h2>最新のお知らせ</h2>
+    <p>2025年10月12日 更新</p>
+  </header>
+  <p>新しいサービスを開始しました！</p>
+</article>
+```
+**関連** : [<h2>](topics/HTML/body/text.md) , [<p>](topics/HTML/body/text.md)
+
+## `<main>`タグ
+
+## `<footer>`
+## `<section>`
+## `<article>`
+## `<aside>`
+## `<nav>`
+## `<div>`
