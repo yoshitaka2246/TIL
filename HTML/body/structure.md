@@ -11,4 +11,21 @@ HTML5で定義されているタグは100種類以上あり、`<body>`内で使�
 |**その他**|`<details>`,`<summary>`,`<table>`,`<tr>`,`<td>`,`<figure>`,`<figcaption>`|補助的な情報や表など|
 
 ## `<header>`タグ
+`<header>`タグは、HTML５で導入された**セクション要素**の一つで、**その部分の導入やナビゲーションをまとめる**役割を持つタグです。
 
+大きくわけて以下の２つの使い方があります。
+1. **ページ全体のヘッダー**
+  サイトのトップに表示されるヘッダー部分で、ロゴ・サイト名・ナビゲーションなどを含めるのが一般的です。
+  ```html
+  <header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <ul>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+```
+2. **セクションごとのヘッダー**
